@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Carol ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      min-height:100vh;
+      background: linear-gradient(135deg, #1a0010, #32001f, #520032);
+      font-family: 'Poppins', sans-serif;
+      overflow-x:hidden;
+      color:white;
+      position:relative;
+    }
+
+    /* Fundo animado */
+    .bg-hearts{
+      position:fixed;
+      width:100%;
+      height:100%;
+      overflow:hidden;
+      z-index:0;
+    }
+
+    .heart{
+      position:absolute;
+      bottom:-50px;
+      color:rgba(255,255,255,0.15);
+      animation: subir 10s linear infinite;
+      font-size:20px;
+    }
+
+    @keyframes subir{
+      0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:0;
+      }
+
+      20%{
+        opacity:1;
+      }
+
+      100%{
+        transform:translateY(-120vh) rotate(360deg);
+        opacity:0;
+      }
+    }
+
+    .container{
+      position:relative;
+      z-index:2;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      padding:40px 20px;
+    }
+
+    .card{
+      width:100%;
+      max-width:950px;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.15);
+      backdrop-filter:blur(15px);
+      border-radius:30px;
+      padding:60px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.4);
+      animation:fade 1.5s ease;
+    }
+
+    @keyframes fade{
+      from{
+        opacity:0;
+        transform:translateY(40px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    .title{
+      text-align:center;
+      font-size:70px;
+      font-family:'Great Vibes', cursive;
+      margin-bottom:10px;
+      color:#ffd6e7;
+    }
+
+    .subtitle{
+      text-align:center;
+      margin-bottom:40px;
+      color:#ffc2d9;
+      font-size:18px;
+      letter-spacing:2px;
+    }
+
+    .text{
+      font-size:18px;
+      line-height:2;
+      color:#f8e9ef;
+      text-align:justify;
+    }
+
+    .highlight{
+      color:#ff8fb7;
+      font-weight:600;
+    }
+
+    .footer{
+      text-align:center;
+      margin-top:50px;
+      font-size:20px;
+      color:#ffd0e0;
+    }
+
+    .glow{
+      position:absolute;
+      width:400px;
+      height:400px;
+      background:#ff4f8b;
+      filter:blur(180px);
+      opacity:0.25;
+      border-radius:50%;
+      z-index:1;
+    }
+
+    .glow1{
+      top:-100px;
+      left:-100px;
+    }
+
+    .glow2{
+      bottom:-100px;
+      right:-100px;
+    }
+
+    @media(max-width:768px){
+
+      .card{
+        padding:35px 25px;
+      }
+
+      .title{
+        font-size:50px;
+      }
+
+      .text{
+        font-size:16px;
+        line-height:1.9;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="bg-hearts">
+    <div class="heart" style="left:10%; animation-delay:0s;">❤️</div>
+    <div class="heart" style="left:20%; animation-delay:2s;">🤍</div>
+    <div class="heart" style="left:35%; animation-delay:4s;">❤️</div>
+    <div class="heart" style="left:50%; animation-delay:1s;">💖</div>
+    <div class="heart" style="left:65%; animation-delay:5s;">🤍</div>
+    <div class="heart" style="left:75%; animation-delay:3s;">❤️</div>
+    <div class="heart" style="left:90%; animation-delay:6s;">💗</div>
+  </div>
+
+  <div class="glow glow1"></div>
+  <div class="glow glow2"></div>
+
+  <div class="container">
+    <div class="card">
+
+      <h1 class="title">Para Carol</h1>
+
+      <div class="text">
+        <p>
+          Carol, eu só queria te dizer algumas coisas que talvez eu não consiga demonstrar todos os dias do jeito certo, mas que eu sinto de verdade. Você se tornou uma das <span class="highlight">pessoas mais importantes da minha vida</span>, alguém que eu valorizo muito e que eu faço questão de ter por perto. Sua presença mudou muita coisa em mim, porque com você até os momentos simples conseguem ficar especiais.
+        </p>
+
+        <br>
+
+        <p>
+          Independente do que acontecer daqui pra frente, das mudanças, dos dias difíceis ou das fases complicadas, eu quero que você saiba que sempre vai poder contar comigo. Pra qualquer coisa mesmo. Seja pra conversar, desabafar, rir de algo bobo, pedir ajuda ou simplesmente ter alguém ao seu lado em silêncio. <span class="highlight">Eu vou estar aqui.</span>
+        </p>
+
+        <br>
+
+        <p>
+          Às vezes a vida acaba sendo confusa e nem tudo acontece da forma que a gente imagina, mas tem pessoas que marcam a gente de um jeito diferente, e você é uma delas pra mim. Você tem um jeito único que faz falta quando não está por perto, um jeito que transmite conforto, leveza e tranquilidade. E eu admiro muito isso em você.
+        </p>
+
+        <br>
+
+        <p>
+          Quero que nunca duvide da importância que tem na minha vida. Porque, sinceramente, poucas pessoas conseguem ocupar um espaço tão especial quanto você ocupa. Sua felicidade importa pra mim, seu bem-estar importa pra mim, e eu sempre vou desejar ver você bem, sorrindo e conquistando tudo aquilo que merece.
+        </p>
+
+        <br>
+
+        <p>
+          Mesmo quando você achar que ninguém entende o que você está sentindo, eu quero tentar entender. Mesmo quando o mundo parecer pesado demais, eu quero ser alguém que consiga te trazer um pouco de paz. E mesmo nos momentos em que você se sentir perdida ou cansada, lembra que tem alguém aqui disposto a ficar ao seu lado.
+        </p>
+
+        <br>
+
+        <p>
+          Você é forte, especial e incrível de um jeito que talvez nem perceba às vezes. E eu espero que a vida te devolva toda a luz que você consegue trazer pras pessoas ao seu redor.
+        </p>
+
+        <br>
+
+        <p>
+          Então guarda isso com você: independente do que acontecer, eu vou continuar aqui. Porque você é uma das pessoas mais importantes pra mim, e nada muda o carinho, a consideração e a importância que eu tenho por você.
+        </p>
+      </div>
+
+      <div class="footer">
+         independente de tudo, sempre estarei com vc ❤️
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
